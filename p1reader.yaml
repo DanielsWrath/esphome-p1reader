@@ -20,10 +20,6 @@ captive_portal:
 logger:
   level: DEBUG
   baud_rate: 0 # disable logging over uart
-  
-# Enable Home Assistant API
-api:
-  password: !secret hass_api_password
 
 ota:
   password: !secret ota_password
